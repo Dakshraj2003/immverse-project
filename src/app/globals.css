@@ -14,6 +14,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+  
 }
 
 body {
@@ -40,3 +41,27 @@ a {
     color-scheme: dark;
   }
 }
+
+body{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* globals.css */
+.client-review {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.client-review h4 {
+  font-size: 2rem; /* or larger like 2.5rem */
+  font-weight: 700;
+  color: #ffffff; /* white for dark backgrounds */
+}
+
+.client-review p {
+  font-size: 1.25rem;
+  color: #cccccc;
+}
+
